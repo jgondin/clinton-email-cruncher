@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir -p pdfs/
-mkdir -p texts/
+mkdir -p txts/
 mkdir -p zips/
 source virt-hrcemail/bin/activate
 python downloadMetadata.py
