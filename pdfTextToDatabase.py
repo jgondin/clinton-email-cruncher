@@ -20,7 +20,7 @@ from subprocess import call
 def extract(filename):
 	try:
 		#file = open('pdfs/'+filename+'.pdf', 'rb')
-		call(['pdftotext', 'pdfs/'+filename+'.pdf', 'txts/'+filename+'.txt'
+		call(['pdftotext', 'pdfs/'+filename+'.pdf', 'txts/'+filename+'.txt'])
 	except:
 		return None;
 	try:
